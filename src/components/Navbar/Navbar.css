@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--main-green);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 80px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar .menu-list .menu-link{
+    color: var(--white);
+    text-decoration: none;
+}
