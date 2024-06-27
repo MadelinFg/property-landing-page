@@ -1,0 +1,29 @@
+.categories {
+    background-color: var(--light-yellow);
+    padding: 100px;
+}
+
+.categories .categories-inner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories .subtitle {
+    color: var(--main-green);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.categories .title {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.categories .categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
