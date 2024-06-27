@@ -1,0 +1,32 @@
+.btn-container .button {
+    font-size: 18px;
+    padding: 18px 20px;
+}
+
+.btn-container .orange {
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--main-orange);
+    color: var(--white);
+}
+.btn-container .white {
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--main-green);
+}
+.btn-container .border {
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--main-orange);
+    color: var(--main-orange);
+}
+.btn-container .text-only {
+    border: 0;
+    background-color: transparent;
+    color: var(--main-orange);
+    font-weight: 600;
+}
