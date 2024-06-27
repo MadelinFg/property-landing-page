@@ -1,5 +1,5 @@
 import Navbar from "../Navbar/Navbar";
-import Button from "../Button/Button";
+import Button from "../comps/Button/Button";
 
 import "./Header.css";
 

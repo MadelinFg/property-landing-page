@@ -1,7 +1,6 @@
 import "./Button.css";
 
 const Button = ({
-    classN,
     text,
     type = "button",
     onClick,
@@ -11,7 +10,7 @@ const Button = ({
     return (
         <div className="btn-container">
             <button
-                className={`button ${classN, customStyle}`}
+                className={`button ${customStyle}`}
                 type={type}
                 onClick={onClick}
                 disabled={disabled}
