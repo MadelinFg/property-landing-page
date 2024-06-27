@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .inner-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    padding: 0 40px;
+}
+
+.header .inner-header .txt-header {
+    color: var(--white);
+}
+
+.header .inner-header .txt-header.text {
+    font-weight: 500;
+    font-size: 18px;
+}
+.header .inner-header .txt-header.title {
+    line-height: 1.3em;
+    font-size: 60px;
+    max-width: 700px;
+}
+
+.header .inner-header .txt-header.text:last-of-type {
+    max-width: 450px;
+    margin-bottom: 24px;
+}
