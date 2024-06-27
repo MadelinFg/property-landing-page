@@ -1,0 +1,42 @@
+.category {
+    background-color: var(--white);
+    border-radius: 10px 10px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    transition: all ease-in-out 0.5s;
+}
+
+.category .icon {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.category .category-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 20px;
+    transition: all ease-in-out 0.5s;
+}
+
+.category .description {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--main-green);
+    margin-bottom: 20px;
+    transition: all ease-in-out 0.5s;
+}
+
+.category .button {
+    padding: 18px 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.category:hover {
+    background-color: var(--main-green);
+}
+
+.category:hover .category-title, .category:hover .description, .category:hover .button {
+    color: var(--white);
+}
